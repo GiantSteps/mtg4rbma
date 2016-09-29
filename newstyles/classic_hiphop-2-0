@@ -1,0 +1,15 @@
+order, 2;
+step, 0;
+aaaa, fa 0.6 ja 0.4;
+baaa, fa 1;
+caaa, fa 1;
+caca, fa 1;
+eaaa, ba 0.2 fa 0.6 ja 0.2;
+eaba, ba 0.25 fa 0.75;
+eaca, fa 1;
+eafa, fa 1;
+eaga, fa 1;
+gaca, fa 1;
+iaaa, na 1;
+jaaa, ba 1;
+maea, fa 1;

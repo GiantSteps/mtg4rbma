@@ -1,0 +1,20 @@
+order, 3;
+step, 20;
+aaaaaa, bb 0.25 db 0.25 jb 0.25 lb 0.25;
+aacaaa, db 1;
+aaeaaa, ab 0.0833333 bb 0.166667 da 0.166667 db 0.0833333 fb 0.333333 ha 0.0833333 jb 0.0833333
+;
+aaeaab, ha 1;
+aaebaa, ab 1;
+aagaaa, da 0.5 db 0.5;
+aaiaaa, bb 0.636364 da 0.0909091 db 0.181818 fb 0.0909091;
+aakaaa, bb 1;
+aamaaa, bb 0.384615 da 0.0769231 db 0.230769 fb 0.153846 ha 0.0769231 nb 0.0769231
+;
+aaoaaa, da 0.333333 fb 0.333333 ja 0.333333;
+caaaca, ab 1;
+caeaaa, bb 1;
+eaiaaa, da 1;
+eamaea, ga 0.5 hb 0.5;
+ebebea, fa 1;
+gamaea, fb 1;

@@ -1,0 +1,18 @@
+order, 3;
+step, 12;
+aaaaaa, ba 1;
+aaiaaa, db 0.5 fb 0.5;
+aaiaca, fa 1;
+aaiaea, db 1;
+aamaea, bb 1;
+aambaa, db 1;
+aciaaa, bb 1;
+eaiaaa, fb 0.5 ha 0.5;
+eaiaea, fb 0.666667 hb 0.333333;
+eamaaa, bb 1;
+eamaea, ha 1;
+gamaaa, bb 1;
+iaeaia, bb 1;
+iaiaaa, bb 0.5 eb 0.5;
+iaoaia, lb 1;
+maeama, hb 1;

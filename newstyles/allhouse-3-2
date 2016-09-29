@@ -1,0 +1,17 @@
+order, 3;
+step, 2;
+aabaaa, ia 1;
+aabaea, ma 1;
+aabaia, ma 1;
+aaeaaa, ia 1;
+aafaaa, ia 1;
+aafaea, ia 1;
+acfaea, ia 1;
+eabaaa, ia 0.666667 ib 0.333333;
+eafaea, ia 0.333333 ma 0.666667;
+eafama, ea 1;
+eajaka, ia 1;
+gabaia, ia 1;
+gafaaa, ia 1;
+mabaia, ea 1;
+mbbaaa, aa 1;

@@ -1,0 +1,8 @@
+order, 1;
+step, 0;
+aa, ba 0.583333 fa 0.166667 ia 0.0416667 ja 0.166667 na 0.0416667
+;
+ca, ba 0.6 fa 0.4;
+ea, ba 0.5 fa 0.375 ja 0.125;
+ga, fa 0.5 ja 0.5;
+ia, aa 0.2 ba 0.4 fa 0.4;

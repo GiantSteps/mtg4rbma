@@ -1,0 +1,9 @@
+order, 1;
+step, 4;
+aa, ba 0.0909091 bb 0.454545 db 0.181818 fb 0.181818 ha 0.0909091
+;
+ac, bb 1;
+ca, fa 1;
+ea, db 0.2 fb 0.4 ha 0.2 hb 0.2;
+ia, eb 0.5 lb 0.5;
+ma, hb 1;

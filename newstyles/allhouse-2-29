@@ -1,0 +1,18 @@
+order, 2;
+step, 29;
+aaba, aa 1;
+aabb, aa 0.75 ea 0.25;
+aadb, aa 1;
+aaeb, aa 1;
+aafb, ea 1;
+abfa, ea 1;
+abha, ea 1;
+cafa, aa 1;
+eabb, aa 1;
+eadb, ea 1;
+eafb, ea 1;
+eaha, ma 1;
+eahb, ea 1;
+iabb, aa 1;
+ialb, ka 1;
+mahb, ma 1;

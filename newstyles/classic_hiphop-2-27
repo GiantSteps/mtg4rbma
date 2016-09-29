@@ -1,0 +1,17 @@
+order, 2;
+step, 27;
+aaaa, aa 1;
+aada, aa 1;
+aaea, aa 0.5 ba 0.5;
+aafa, aa 0.8 ba 0.2;
+aaia, aa 1;
+baea, ba 1;
+bafa, ba 1;
+baja, aa 1;
+caba, aa 1;
+caca, ca 1;
+cafa, ba 1;
+caja, aa 0.5 ba 0.5;
+fana, ea 1;
+gaea, fa 1;
+gafa, fa 1;

@@ -1,0 +1,7 @@
+order, 1;
+step, 8;
+aa, aa 0.02 ab 0.02 ba 0.5 da 0.12 fa 0.14 ha 0.06 ja 0.12 pa 0.02
+;
+ab, ba 1;
+ea, ea 0.25 fa 0.75;
+ka, aa 1;

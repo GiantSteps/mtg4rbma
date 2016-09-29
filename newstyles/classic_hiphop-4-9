@@ -1,0 +1,18 @@
+order, 4;
+step, 9;
+aaaaaafa, fa 1;
+aaaacaba, aa 1;
+aabaaaba, aa 1;
+aaeaaaea, aa 1;
+aaeaaafa, aa 1;
+aaeababa, ca 0.5 ga 0.5;
+aaeabaea, aa 0.333333 ba 0.666667;
+aaeabafa, aa 0.666667 ga 0.333333;
+aaeacaea, ca 1;
+aaeafafa, aa 1;
+aafacaha, ba 1;
+aaiacafa, aa 1;
+aaiacaia, ca 1;
+eaeafaea, fa 1;
+eaeafafa, ga 1;
+eafaeaea, fa 1;

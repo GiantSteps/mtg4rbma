@@ -1,0 +1,13 @@
+order, 1;
+step, 15;
+aa, aa 1;
+ea, aa 0.666667 ea 0.166667 ga 0.166667;
+fa, aa 0.6 ca 0.2 ea 0.2;
+ia, aa 0.555556 ca 0.111111 ea 0.111111 ia 0.222222;
+ib, ab 1;
+ja, aa 0.5 ca 0.166667 ea 0.333333;
+ka, aa 0.5 ca 0.5;
+la, aa 1;
+ma, ga 1;
+na, aa 0.5 ea 0.5;
+oa, ia 1;

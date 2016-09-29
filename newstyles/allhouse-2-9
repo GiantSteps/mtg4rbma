@@ -1,0 +1,12 @@
+order, 2;
+step, 9;
+aaba, aa 0.5 ac 0.166667 ia 0.333333;
+aabb, aa 1;
+aafa, ea 1;
+caba, aa 1;
+eaba, aa 1;
+eafa, aa 0.166667 ea 0.833333;
+gaba, ga 1;
+iaea, ia 1;
+kaja, ia 1;
+mafa, ma 1;

@@ -1,0 +1,7 @@
+order, 1;
+step, 20;
+aa, ab 0.04 bb 0.34 da 0.14 db 0.18 fb 0.16 ha 0.04 ja 0.02 jb 0.04 lb 0.02 nb 0.02
+;
+ab, ha 1;
+ca, ab 1;
+ea, fa 0.25 fb 0.25 ga 0.25 hb 0.25;

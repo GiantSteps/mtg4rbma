@@ -1,0 +1,16 @@
+order, 5;
+step, 22;
+aaaaaakaaa, aa 1;
+aaaabacaaa, ba 1;
+aabaaacaba, aa 1;
+aaeaaagaaa, ea 1;
+aaeaaaiaca, aa 1;
+aaeabagaaa, ea 0.5 fa 0.5;
+aafaaagaaa, aa 0.4 ea 0.6;
+aafaaagaba, ea 1;
+aaiaaagaaa, ia 1;
+aajaaagaaa, ea 1;
+aajaaakaaa, ia 1;
+eaeafagaea, ea 0.5 fa 0.5;
+eafafagaea, ea 1;
+gaeabagaaa, ea 1;

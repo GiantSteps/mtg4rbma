@@ -1,0 +1,18 @@
+order, 3;
+step, 17;
+aaaaba, aa 1;
+eaaaba, ia 1;
+eaeafa, ea 1;
+eamafa, ma 1;
+iaaaba, aa 0.5 ia 0.5;
+iaaaea, aa 1;
+iaaafa, ea 1;
+iababa, aa 1;
+iaeaba, aa 1;
+iaeafa, aa 0.4 ea 0.6;
+icacba, aa 1;
+jambja, ka 1;
+maaaba, ia 1;
+maeafa, ea 1;
+magaba, ea 1;
+meeaba, aa 1;

@@ -1,0 +1,15 @@
+order, 5;
+step, 21;
+baaaaaaaka, aa 1;
+baaaaabaca, aa 1;
+baaabaaaca, ba 1;
+daaaeaaaia, ca 1;
+faaaeaaaga, aa 1;
+faaaeabaga, aa 1;
+faaafaaaga, aa 0.833333 ba 0.166667;
+faaaiaaaga, aa 1;
+faaajaaaga, aa 1;
+faeaeafaga, ea 1;
+faeafafaga, ea 1;
+fagaeabaga, aa 1;
+jaaajaaaka, aa 1;

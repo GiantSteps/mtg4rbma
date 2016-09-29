@@ -1,0 +1,16 @@
+order, 4;
+step, 4;
+baaaaaaa, ka 1;
+baaaaaba, ca 1;
+baaafaaa, ga 1;
+faaaaaaa, ga 1;
+faaaeaaa, ga 1;
+faaaeaba, ga 1;
+faaafaaa, ga 1;
+faeaeaaa, ga 1;
+faeaeaea, ga 1;
+faeaeafa, ga 1;
+faeafafa, ga 1;
+jaaajaaa, ca 0.5 ga 0.5;
+jabajaaa, ka 1;
+naaajaaa, ca 1;

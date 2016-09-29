@@ -1,0 +1,8 @@
+order, 1;
+step, 26;
+aa, aa 0.1 ca 0.02 ea 0.16 ga 0.14 ia 0.22 ib 0.02 ka 0.04 ma 0.22 oa 0.08
+;
+ab, ea 1;
+ca, aa 1;
+ea, ma 1;
+eb, ea 0.5 ma 0.5;

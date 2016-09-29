@@ -1,0 +1,13 @@
+order, 2;
+step, 20;
+aaaa, ba 1;
+eaaa, bb 1;
+eama, hb 1;
+iaaa, bb 0.2 db 0.2 fb 0.4 hb 0.2;
+iaac, bb 1;
+iaca, fa 1;
+iaea, db 0.25 fb 0.5 hb 0.25;
+iaia, eb 0.5 lb 0.5;
+ibaa, db 1;
+maaa, bb 1;
+maea, ha 1;

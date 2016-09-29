@@ -1,0 +1,16 @@
+order, 2;
+step, 12;
+aaaa, ca 1;
+aaba, ca 1;
+baaa, ka 1;
+eaaa, ga 1;
+eaba, ga 1;
+faaa, ga 1;
+faba, ga 0.666667 oa 0.333333;
+faea, ga 1;
+fafa, ga 1;
+faia, ca 1;
+iaaa, ga 1;
+jaaa, ga 1;
+jaba, ka 1;
+naea, ga 1;

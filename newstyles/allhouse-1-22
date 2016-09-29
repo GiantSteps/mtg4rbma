@@ -1,0 +1,9 @@
+order, 1;
+step, 22;
+aa, aa 0.181818 fa 0.0909091 ia 0.454545 ma 0.181818 me 0.0909091
+;
+ac, ia 1;
+ea, ia 0.4 ja 0.4 ma 0.2;
+eb, ia 1;
+ia, ia 1;
+ma, ea 1;

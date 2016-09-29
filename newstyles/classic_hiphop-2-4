@@ -1,0 +1,11 @@
+order, 2;
+step, 4;
+aaaa, ga 0.5 ka 0.5;
+aaba, ca 1;
+eaaa, ga 1;
+eaba, ga 1;
+eaea, ga 1;
+eafa, ga 1;
+faaa, ga 1;
+fafa, ga 1;
+jaaa, ca 0.5 ga 0.25 ka 0.25;

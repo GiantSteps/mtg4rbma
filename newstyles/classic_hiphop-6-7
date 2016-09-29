@@ -1,0 +1,17 @@
+order, 6;
+step, 7;
+aaaaaagaaaaa, aa 1;
+aaaaaakaaaaa, ca 1;
+aaaabacaaaba, aa 1;
+aaeaaagaaaea, aa 0.5 ba 0.25 fa 0.25;
+aaeabagaaaea, aa 0.5 ba 0.5;
+aaeabagaaafa, ca 1;
+aafaaagaaaea, aa 0.2 ba 0.6 ca 0.2;
+aafaaagaaaia, ca 1;
+aajaaacaaaea, ba 1;
+aajaaagaaaea, ba 1;
+bajaaakaaaia, ca 1;
+eaeaaagaaaea, aa 1;
+eaeaeagaeaea, fa 1;
+eaeafagaeafa, ea 1;
+eafafagaeaea, fa 1;

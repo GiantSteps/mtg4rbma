@@ -1,0 +1,18 @@
+order, 2;
+step, 1;
+aaaa, aa 0.5 ca 0.5;
+aaab, aa 1;
+aaba, aa 1;
+aabb, aa 1;
+aada, aa 1;
+aafa, aa 0.714286 ab 0.0714286 ea 0.214286;
+aafb, aa 1;
+aaha, aa 0.5 eb 0.5;
+aaja, aa 1;
+aana, aa 1;
+baba, aa 1;
+caba, aa 1;
+eaea, ea 1;
+eafa, aa 1;
+ebba, aa 1;
+faba, aa 1;

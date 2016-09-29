@@ -1,0 +1,17 @@
+order, 3;
+step, 13;
+aaaaca, aa 1;
+aabaca, aa 1;
+baaaka, aa 1;
+eaaaga, aa 1;
+eabaga, aa 0.8 ba 0.2;
+faaaga, aa 1;
+fabaga, aa 1;
+fabaoa, aa 1;
+faeaga, aa 0.5 ea 0.5;
+fafaga, ea 1;
+faiaca, aa 1;
+iaaaga, ea 1;
+jaaaga, aa 1;
+jabaka, aa 1;
+naeaga, ea 1;

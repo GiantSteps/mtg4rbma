@@ -1,0 +1,14 @@
+order, 5;
+step, 4;
+aabaaaaaaa, cb 1;
+aabaaaeaaa, gb 1;
+aabaaaiaaa, ab 0.133333 cb 0.866667;
+aaeaaaeaaa, eb 0.8 fb 0.2;
+aafaaaeaaa, gb 1;
+aajaaaiaaa, kb 1;
+aajaeaeaea, kb 1;
+eaeaaaeaaa, eb 0.166667 fb 0.833333;
+eafaaaeaaa, gb 1;
+eagbfaeaea, fa 1;
+eajaaaiaaa, kb 1;
+eajaeaeaea, kb 1;

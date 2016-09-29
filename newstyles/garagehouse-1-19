@@ -1,0 +1,7 @@
+order, 1;
+step, 19;
+ea, aa 0.75 ac 0.125 ea 0.125;
+ia, aa 0.714286 ba 0.0357143 ea 0.142857 ia 0.107143;
+ja, ca 0.5 ka 0.5;
+ka, aa 1;
+ma, aa 0.8 ea 0.2;

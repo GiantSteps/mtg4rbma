@@ -1,0 +1,12 @@
+order, 3;
+step, 7;
+caaaba, aa 1;
+caaaea, ba 1;
+gaaaaa, aa 1;
+gaaaea, aa 0.384615 ba 0.461538 ca 0.0769231 fa 0.0769231;
+gaaafa, ca 1;
+gaaaia, ca 1;
+gaeaea, fa 1;
+gaeafa, ea 1;
+kaaaaa, ca 1;
+kaaaia, ca 1;

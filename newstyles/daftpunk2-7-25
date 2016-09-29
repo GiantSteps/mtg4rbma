@@ -1,0 +1,13 @@
+order, 7;
+step, 25;
+aaaacbaaaaaaba, aa 1;
+aaaafaeaaaaagb, aa 1;
+eaaaebaaeaaaea, aa 1;
+eaaafaeaeaeagb, ea 1;
+eaaafbaaeaaaea, aa 1;
+eaaagbaaeaaafa, aa 0.722222 ea 0.277778;
+eaeafaeaeaeagb, ea 1;
+eaeakbeaeaeaja, ea 1;
+iaaaabaaiaaaba, aa 1;
+iaaacbaaiaaaba, aa 1;
+iaaakbaaiaaaja, aa 1;

@@ -1,0 +1,13 @@
+order, 2;
+step, 31;
+aaaa, aa 1;
+aaba, aa 1;
+aaca, aa 1;
+aaea, aa 0.555556 ba 0.333333 ga 0.111111;
+aaga, ca 1;
+aaia, aa 1;
+baea, ca 1;
+caca, ca 1;
+eaea, ba 0.333333 fa 0.666667;
+eaja, aa 1;
+eama, ea 1;

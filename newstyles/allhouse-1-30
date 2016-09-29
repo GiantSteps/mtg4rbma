@@ -1,0 +1,6 @@
+order, 1;
+step, 30;
+aa, aa 0.1 ea 0.1 ia 0.3 ic 0.1 ja 0.1 ma 0.2 me 0.1;
+ea, ia 0.75 ib 0.125 ma 0.125;
+ka, ja 1;
+ma, ea 1;

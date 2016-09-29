@@ -1,0 +1,11 @@
+order, 5;
+step, 6;
+aaaaaacbaa, aa 1;
+aaeaaaebaa, ea 1;
+aaeaaafbaa, ea 1;
+aaeaaagbaa, ea 1;
+aaiaaaabaa, ia 1;
+aaiaaacbaa, ia 1;
+aaiaaakbaa, ia 1;
+eaeaeakbea, ea 1;
+faeaeafaea, aa 0.307692 ea 0.692308;

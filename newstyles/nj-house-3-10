@@ -1,0 +1,14 @@
+order, 3;
+step, 10;
+aaaaaa, ea 1;
+aaabaa, ea 1;
+aabaaa, aa 0.04 ea 0.32 ga 0.04 ia 0.36 ma 0.2 oa 0.04;
+aadaaa, ia 0.333333 ka 0.166667 ma 0.5;
+aafaaa, ea 0.428571 ma 0.428571 oa 0.142857;
+aahaaa, ea 0.666667 ma 0.333333;
+aajaaa, aa 0.5 ca 0.333333 oa 0.166667;
+aapaaa, ma 1;
+abbaaa, ia 1;
+eaeaea, ma 1;
+eafaea, eb 0.333333 ma 0.666667;
+kaaaca, aa 1;

@@ -1,0 +1,16 @@
+order, 2;
+step, 25;
+aaaa, aa 1;
+aaba, aa 1;
+aacb, aa 1;
+aada, aa 1;
+aafa, aa 1;
+aafb, aa 1;
+aaha, aa 1;
+aaja, aa 1;
+aana, aa 1;
+abba, aa 1;
+abfa, ab 1;
+caaa, ca 1;
+eaea, eb 1;
+eafa, ea 0.666667 eb 0.333333;

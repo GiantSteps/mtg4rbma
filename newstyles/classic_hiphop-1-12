@@ -1,0 +1,7 @@
+order, 1;
+step, 12;
+aa, ca 0.111111 ga 0.777778 ka 0.111111;
+ba, ca 0.1 ga 0.7 ka 0.1 oa 0.1;
+ea, ga 1;
+fa, ga 1;
+ia, ca 1;

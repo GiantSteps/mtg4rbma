@@ -1,0 +1,17 @@
+order, 2;
+step, 26;
+aaaa, ga 1;
+aaca, aa 1;
+baaa, aa 0.0769231 ea 0.230769 ga 0.0769231 ia 0.384615 ka 0.0384615 ma 0.153846 oa 0.0384615
+;
+cbaa, ga 1;
+daaa, aa 0.2 ga 0.2 ka 0.2 oa 0.4;
+eaeb, ma 1;
+faaa, ea 0.285714 ga 0.142857 ia 0.142857 ma 0.428571;
+faab, ea 1;
+faea, ma 1;
+faeb, ea 1;
+fbaa, ib 1;
+haaa, ga 0.5 ma 0.5;
+jaaa, aa 0.333333 ca 0.166667 ma 0.333333 oa 0.166667;
+naaa, ma 1;

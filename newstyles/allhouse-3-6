@@ -1,0 +1,18 @@
+order, 3;
+step, 6;
+aabaaa, aa 1;
+aabbaa, fa 0.25 ia 0.25 ma 0.5;
+aabbea, ma 1;
+aadbaa, aa 1;
+aadbac, ia 1;
+aafbaa, ia 1;
+aahaea, ia 1;
+acbbaa, ia 1;
+cafaaa, me 1;
+eadbea, ja 1;
+eafbea, ia 0.5 ja 0.5;
+eahama, ea 1;
+eahbea, ia 1;
+iaebaa, ia 1;
+ialbia, ia 1;
+mahbma, ea 1;

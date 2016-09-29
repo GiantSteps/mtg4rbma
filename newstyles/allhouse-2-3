@@ -1,0 +1,13 @@
+order, 2;
+step, 3;
+aaaa, aa 1;
+aaia, aa 0.428571 ac 0.142857 ca 0.142857 ea 0.142857 ia 0.142857
+;
+aaib, aa 1;
+eaia, aa 0.25 ea 0.75;
+eama, aa 0.666667 ea 0.333333;
+iaea, aa 1;
+iaia, aa 1;
+iama, aa 1;
+kaia, ia 1;
+maea, ma 1;

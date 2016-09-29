@@ -1,0 +1,16 @@
+order, 2;
+step, 12;
+aaaa, bb 0.5 db 0.25 jb 0.25;
+aaca, ab 1;
+caaa, jb 1;
+eaaa, ab 0.142857 bb 0.142857 da 0.285714 fb 0.285714 ha 0.0714286 lb 0.0714286
+;
+eaab, ha 1;
+ebeb, fa 1;
+gaca, bb 1;
+iaaa, ba 0.0833333 bb 0.583333 da 0.166667 db 0.166667;
+kaaa, bb 1;
+maaa, bb 0.384615 da 0.0769231 db 0.153846 fb 0.230769 ha 0.0769231 nb 0.0769231
+;
+maea, fb 0.333333 ga 0.333333 hb 0.333333;
+oaaa, bb 0.333333 da 0.333333 ja 0.333333;

@@ -1,0 +1,11 @@
+order, 1;
+step, 13;
+ba, aa 1;
+bb, aa 0.833333 ea 0.166667;
+db, aa 0.666667 ea 0.333333;
+eb, aa 1;
+fa, aa 1;
+fb, ea 1;
+ha, ea 0.5 ma 0.5;
+hb, ea 0.5 ma 0.5;
+lb, ka 1;

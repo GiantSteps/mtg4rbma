@@ -1,0 +1,13 @@
+order, 6;
+step, 28;
+aaaabaaaaaaa, cb 0.75 kb 0.25;
+aaaagbaaeaea, ea 1;
+eaaaeaaaeaaa, eb 0.214286 fb 0.75 kb 0.0357143;
+eaaafaaaeaaa, gb 1;
+eaaafaaaiaaa, cb 1;
+eaaafaeaeaaa, gb 1;
+eaeagbeaeaea, ea 1;
+eaeajaeaeaea, kb 1;
+eaeajaeaiaaa, gb 1;
+iaaabaaaiaaa, ab 0.1 cb 0.833333 kb 0.0666667;
+iaaajaaaiaaa, kb 1;

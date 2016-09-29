@@ -1,0 +1,8 @@
+order, 1;
+step, 10;
+aa, aa 0.142857 ia 0.571429 ma 0.142857 mb 0.142857;
+ac, ia 1;
+ea, ia 0.714286 ma 0.285714;
+ga, ma 1;
+ia, ea 0.25 ia 0.5 oa 0.25;
+ma, ea 1;

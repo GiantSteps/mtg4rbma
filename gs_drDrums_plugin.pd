@@ -1,9 +1,9 @@
-#N canvas 443 45 423 486 10;
+#N canvas 443 45 571 587 10;
 #X declare -path pd-abs -path pd-third-party;
-#X obj 161 218 hsl 100 28 0 1 0 0 style-crossfade \$0-set-style-crossfade
-empty -2 -8 0 10 -33289 -228856 -1 9009 1;
-#X obj 64 261 hsl 200 28 0 1 0 0 \$0-bbv \$0-bbv-set variation 68 14
-1 15 -33289 -228856 -262144 0 1;
+#X obj 161 228 hsl 100 28 0 1 0 0 style-crossfade \$0-set-style-crossfade
+empty -2 -8 0 10 -33289 -228856 -1 5544 1;
+#X obj 188 271 hsl 200 28 0 1 0 0 \$0-bbv \$0-bbv-set variation 68
+14 1 15 -33289 -228856 -262144 0 1;
 #N canvas 425 190 796 519 select 0;
 #X obj 100 300 cnv 15 125 28 empty empty empty 20 12 0 14 -33289 -66577
 0;
@@ -71,7 +71,7 @@ Daft_Punk Funk HipHop;
 #X connect 26 0 1 0;
 #X connect 27 0 12 0;
 #X coords 0 -1 1 1 125 28 2 100 300;
-#X restore 274 218 pd select style B;
+#X restore 274 228 pd select style B;
 #N canvas 375 240 796 519 select 0;
 #X obj 100 300 cnv 15 125 28 empty empty empty 20 12 0 14 -33289 -66577
 0;
@@ -141,12 +141,12 @@ Daft_Punk Funk HipHop;
 #X connect 26 0 27 0;
 #X connect 28 0 14 0;
 #X coords 0 -1 1 1 125 28 2 100 300;
-#X restore 22 218 pd select style B;
-#X obj 22 261 bng 28 250 50 0 \$0-generate-seed \$0-generate-seed-set
+#X restore 22 228 pd select style B;
+#X obj 146 271 bng 28 250 50 0 \$0-generate-seed \$0-generate-seed-set
 new 1 14 1 15 -33289 -228856 -228856;
 #X obj 81 20 onset16_grey hiconga;
 #X obj 81 179 hradio 20 1 0 16 nos playhead empty 0 -8 0 10 -128992
--258113 -1 13;
+-258113 -1 7;
 #X obj 9 159 cnv 15 30 20 empty empty Kd 2 12 1 22 -128992 -228856
 0;
 #X obj 9 140 cnv 15 30 20 empty empty Sn 2 12 1 22 -128992 -228856
@@ -164,13 +164,13 @@ new 1 14 1 15 -33289 -228856 -228856;
 #X obj 9 21 cnv 15 30 20 empty empty Hc 2 12 1 22 -128992 -228856 0
 ;
 #X obj 61 21 butt hiconga-freeze;
-#X obj 259 380 bng 20 250 50 0 reset-density reset-density-set empty
+#X obj 393 390 bng 20 250 50 0 reset-density reset-density-set empty
 17 7 0 10 -228856 -66577 -1;
-#X obj 307 259 cnv 15 1 1 empty empty PRESETS -2 6 1 14 -128992 -228856
+#X obj 537 269 cnv 15 1 1 empty empty PRESETS -2 6 1 14 -128992 -228856
 0;
-#X obj 362 445 bng 15 250 50 0 \$0-clear-all-savings nor clear_all
+#X obj 592 465 bng 15 250 50 0 \$0-clear-all-savings nor clear_all
 -12 -5 1 10 -33289 -228856 -228856;
-#X obj 312 445 bng 15 250 50 0 \$0-clear-one-saving nor clear_one -12
+#X obj 542 465 bng 15 250 50 0 \$0-clear-one-saving nor clear_one -12
 -5 1 10 -33289 -228856 -228856;
 #X obj 61 161 butt kick-freeze;
 #X obj 61 141 butt snare-freeze;
@@ -179,45 +179,45 @@ new 1 14 1 15 -33289 -228856 -228856;
 #X obj 61 81 butt clap-freeze;
 #X obj 61 41 butt loconga-freeze;
 #X obj 61 61 butt rimshot-freeze;
-#X obj 23 209 bng 8 250 50 0 \$0-learn-styleA --- empty 17 7 0 10 -258113
+#X obj 23 219 bng 8 250 50 0 \$0-learn-styleA --- empty 17 7 0 10 -258113
 -1 -1;
-#X obj 158 209 bng 8 250 50 0 \$0-learn-crossfade --- empty 17 7 0
+#X obj 158 219 bng 8 250 50 0 \$0-learn-crossfade --- empty 17 7 0
 10 -258113 -1 -1;
-#X obj 274 209 bng 8 250 50 0 \$0-learn-styleB --- empty 17 7 0 10
+#X obj 274 219 bng 8 250 50 0 \$0-learn-styleB --- empty 17 7 0 10
 -258113 -1 -1;
-#X obj 21 252 bng 8 250 50 0 \$0-learn-new --- empty 17 7 0 10 -258113
+#X obj 145 262 bng 8 250 50 0 \$0-learn-new --- empty 17 7 0 10 -258113
 -1 -1;
-#X obj 61 252 bng 8 250 50 0 \$0-learn-variation --- empty 17 7 0 10
--258113 -1 -1;
-#X obj 232 458 bng 8 250 50 0 \$0-learn-densityhc --- empty 17 7 0
+#X obj 195 262 bng 8 250 50 0 \$0-learn-variation --- empty 17 7 0
 10 -258113 -1 -1;
-#X obj 203 458 bng 8 250 50 0 \$0-learn-densitylc --- empty 17 7 0
+#X obj 366 468 bng 8 250 50 0 \$0-learn-densityhc --- empty 17 7 0
 10 -258113 -1 -1;
-#X obj 173 457 bng 8 250 50 0 \$0-learn-densityrs --- empty 17 7 0
+#X obj 337 468 bng 8 250 50 0 \$0-learn-densitylc --- empty 17 7 0
 10 -258113 -1 -1;
-#X obj 143 457 bng 8 250 50 0 \$0-learn-densitycp --- empty 17 7 0
+#X obj 307 467 bng 8 250 50 0 \$0-learn-densityrs --- empty 17 7 0
 10 -258113 -1 -1;
-#X obj 113 457 bng 8 250 50 0 \$0-learn-densityoh --- empty 17 7 0
+#X obj 277 467 bng 8 250 50 0 \$0-learn-densitycp --- empty 17 7 0
 10 -258113 -1 -1;
-#X obj 83 458 bng 8 250 50 0 \$0-learn-densitych --- empty 17 7 0 10
+#X obj 247 467 bng 8 250 50 0 \$0-learn-densityoh --- empty 17 7 0
+10 -258113 -1 -1;
+#X obj 217 468 bng 8 250 50 0 \$0-learn-densitych --- empty 17 7 0
+10 -258113 -1 -1;
+#X obj 187 468 bng 8 250 50 0 \$0-learn-densitysn --- empty 17 7 0
+10 -258113 -1 -1;
+#X obj 156 468 bng 8 250 50 0 \$0-learn-densitykd --- empty 17 7 0
+10 -258113 -1 -1;
+#X obj 393 411 bng 8 250 50 0 \$0-learn-density0 --- empty 17 7 0 10
 -258113 -1 -1;
-#X obj 53 458 bng 8 250 50 0 \$0-learn-densitysn --- empty 17 7 0 10
+#X obj 535 334 bng 8 250 50 0 \$0-learn-memory1 --- empty 17 7 0 10
 -258113 -1 -1;
-#X obj 22 458 bng 8 250 50 0 \$0-learn-densitykd --- empty 17 7 0 10
+#X obj 585 334 bng 8 250 50 0 \$0-learn-memory2 --- empty 17 7 0 10
 -258113 -1 -1;
-#X obj 259 401 bng 8 250 50 0 \$0-learn-density0 --- empty 17 7 0 10
+#X obj 535 384 bng 8 250 50 0 \$0-learn-memory3 --- empty 17 7 0 10
 -258113 -1 -1;
-#X obj 305 314 bng 8 250 50 0 \$0-learn-memory1 --- empty 17 7 0 10
+#X obj 585 384 bng 8 250 50 0 \$0-learn-memory4 --- empty 17 7 0 10
 -258113 -1 -1;
-#X obj 355 314 bng 8 250 50 0 \$0-learn-memory2 --- empty 17 7 0 10
+#X obj 535 434 bng 8 250 50 0 \$0-learn-memory5 --- empty 17 7 0 10
 -258113 -1 -1;
-#X obj 305 364 bng 8 250 50 0 \$0-learn-memory3 --- empty 17 7 0 10
--258113 -1 -1;
-#X obj 355 364 bng 8 250 50 0 \$0-learn-memory4 --- empty 17 7 0 10
--258113 -1 -1;
-#X obj 305 414 bng 8 250 50 0 \$0-learn-memory5 --- empty 17 7 0 10
--258113 -1 -1;
-#X obj 355 414 bng 8 250 50 0 \$0-learn-memory6 --- empty 17 7 0 10
+#X obj 585 434 bng 8 250 50 0 \$0-learn-memory6 --- empty 17 7 0 10
 -258113 -1 -1;
 #X obj 41 161 butt3 kick-mute;
 #X obj 45 180 cnv 10 10 10 empty empty m 0 6 1 14 -128992 -228856 0
@@ -231,7 +231,6 @@ new 1 14 1 15 -33289 -228856 -228856;
 #X obj 41 61 butt3 rs-mute;
 #X obj 41 41 butt3 lc-mute;
 #X obj 41 21 butt3 hc-mute;
-#X obj 305 275 butt2 save1;
 #X obj 81 159 onset16_grey kick;
 #X obj 81 139 onset16_grey snare;
 #X obj 81 120 onset16_grey chihat;
@@ -2457,7 +2456,7 @@ by the crossfader.;
 -262144 -128992 3;
 #N canvas 160 288 450 300 load-memory 0;
 #X obj 65 18 loadbang;
-#X obj 113 96 cyclone/coll \$0-saved-patterns;
+#X obj 113 106 cyclone/coll \$0-saved-patterns;
 #C restore;
 #X obj 65 38 t b b;
 #X msg 72 76 1;
@@ -2466,7 +2465,7 @@ by the crossfader.;
 #X msg 65 192 dump;
 #X text 79 164 turn on buttons with patterns;
 #X msg 124 238 \; save\$1 1;
-#X msg 113 76 read ./pd-user/memory-drDrums;
+#X msg 113 86 read ./pd-user/memory-drDrums;
 #X connect 0 0 2 0;
 #X connect 2 0 5 0;
 #X connect 2 1 8 0;
@@ -2476,10 +2475,10 @@ by the crossfader.;
 #X connect 8 0 1 0;
 #X restore 594 90 pd load-memory;
 #N canvas 0 23 1280 699 allmidi 0;
-#X obj 270 87 + 1;
-#X obj 240 87 f 0;
-#X msg 214 70 0;
-#X obj 214 50 sel 0;
+#X obj 280 77 + 1;
+#X obj 250 77 f 0;
+#X msg 224 60 0;
+#X obj 224 40 sel 0;
 #X text 17 19 FROM DAW;
 #N canvas 0 169 819 345 patt2midi 0;
 #X obj 13 149 sel 1;
@@ -2584,7 +2583,7 @@ by the crossfader.;
 #X connect 45 0 44 1;
 #X connect 46 0 17 0;
 #X connect 47 0 46 1;
-#X restore 240 126 pd patt2midi;
+#X restore 250 116 pd patt2midi;
 #X text 16 52 Get the position of the reader;
 #X text 15 63 from the daw and start sending;
 #X text 16 76 MIDI of the 8 instruments back;
@@ -2668,12 +2667,12 @@ by the crossfader.;
 #X text 24 619 density 0;
 #X obj 87 633 r \$0-learn-density0-set;
 #X obj 87 652 s reset-density-set;
-#X msg 944 45 9 22;
+#X msg 944 45 100 33;
 #X obj 697 64 s \$0-save-state;
 #X text 859 6 memory;
 #X obj 793 64 r \$0-learn-memory1-set;
 #X obj 793 83 s save1;
-#X msg 944 105 9 22;
+#X msg 944 105 101 33;
 #X obj 697 124 s \$0-save-state;
 #X obj 793 124 r \$0-learn-memory2-set;
 #X obj 793 143 s save2;
@@ -2691,14 +2690,12 @@ by the crossfader.;
 #X obj 793 323 s save5;
 #X msg 944 345;
 #X obj 697 364 s \$0-save-state;
-#X obj 793 383 s save6;
 #X obj 793 364 r \$0-learn-memory6-set;
 #X obj 87 562 s \$0-bbv-set;
 #X obj 369 556 r \$0-learn-densitysn-set;
 #X obj 369 636 r \$0-learn-densitykd-set;
-#X obj 214 31 pdmus/midi-sync;
-#X obj 246 107 sel 15;
-#X obj 369 38 midi-learn-map \$0-learn-densityhc -1 1 0;
+#X obj 224 21 pdmus/midi-sync;
+#X obj 256 97 sel 15;
 #X msg 985 380 menusave;
 #X obj 985 401 s pd-gs_drDrums_plugin.pd;
 #X obj 606 62 s \$0-hcr;
@@ -2709,25 +2706,6 @@ by the crossfader.;
 #X obj 630 472 s \$0-chr;
 #X obj 640 552 s \$0-snr;
 #X obj 640 632 s \$0-kdr;
-#X obj 369 118 midi-learn-map \$0-learn-densitylc -1 1 0;
-#X obj 87 245 midi-learn-map \$0-learn-crossfade 0 1 0;
-#X obj 87 159 midi-learn-map \$0-learn-styleA 0 5 1;
-#X obj 87 331 midi-learn-map \$0-learn-styleB 0 5 1;
-#X obj 87 415 midi-learn-map \$0-learn-new 0 1 2;
-#X obj 87 505 midi-learn-map \$0-learn-variation 0 1 0;
-#X obj 369 198 midi-learn-map \$0-learn-densityrs -1 1 0;
-#X obj 369 278 midi-learn-map \$0-learn-densitycp -1 1 0;
-#X obj 369 358 midi-learn-map \$0-learn-densityoh -1 1 0;
-#X obj 369 438 midi-learn-map \$0-learn-densitych -1 1 0;
-#X obj 87 595 midi-learn-map \$0-learn-density0 0 1 2;
-#X obj 697 45 midi-learn-map \$0-learn-memory1 0 1 2;
-#X obj 697 105 midi-learn-map \$0-learn-memory2 0 1 2;
-#X obj 697 165 midi-learn-map \$0-learn-memory3 0 1 2;
-#X obj 697 225 midi-learn-map \$0-learn-memory4 0 1 2;
-#X obj 697 285 midi-learn-map \$0-learn-memory5 0 1 2;
-#X obj 697 345 midi-learn-map \$0-learn-memory6 0 1 2;
-#X obj 369 518 midi-learn-map \$0-learn-densitysn -1 1 0;
-#X obj 369 598 midi-learn-map \$0-learn-densitykd -1 1 0;
 #X obj 630 11 loadbang;
 #N canvas 206 23 342 642 vis-reset-density 0;
 #X obj 52 24 r reset-density;
@@ -2777,13 +2755,34 @@ by the crossfader.;
 #X connect 17 0 19 0;
 #X connect 18 0 19 0;
 #X restore 988 225 pd vis-reset-density;
+#X obj 697 345 midi-learn-map \$0-learn-memory6 0 1 2;
+#X obj 793 383 s save6;
+#X obj 369 38 midi-learn-map \$0-learn-densityhc -1 1 0;
+#X obj 87 159 midi-learn-map \$0-learn-styleA 0 5 1;
+#X obj 369 118 midi-learn-map \$0-learn-densitylc -1 1 0;
+#X obj 87 245 midi-learn-map \$0-learn-crossfade 0 1 0;
+#X obj 87 331 midi-learn-map \$0-learn-styleB 0 5 1;
+#X obj 87 415 midi-learn-map \$0-learn-new 0 1 2;
+#X obj 87 505 midi-learn-map \$0-learn-variation 0 1 0;
+#X obj 369 198 midi-learn-map \$0-learn-densityrs -1 1 0;
+#X obj 369 278 midi-learn-map \$0-learn-densitycp -1 1 0;
+#X obj 369 358 midi-learn-map \$0-learn-densityoh -1 1 0;
+#X obj 369 438 midi-learn-map \$0-learn-densitych -1 1 0;
+#X obj 87 595 midi-learn-map \$0-learn-density0 0 1 2;
+#X obj 697 45 midi-learn-map \$0-learn-memory1 0 1 2;
+#X obj 697 105 midi-learn-map \$0-learn-memory2 0 1 2;
+#X obj 697 165 midi-learn-map \$0-learn-memory3 0 1 2;
+#X obj 697 225 midi-learn-map \$0-learn-memory4 0 1 2;
+#X obj 697 285 midi-learn-map \$0-learn-memory5 0 1 2;
+#X obj 369 518 midi-learn-map \$0-learn-densitysn -1 1 0;
+#X obj 369 598 midi-learn-map \$0-learn-densitykd -1 1 0;
 #X connect 0 0 1 1;
 #X connect 1 0 0 0;
 #X connect 1 0 5 0;
-#X connect 1 0 118 0;
+#X connect 1 0 117 0;
 #X connect 2 0 1 1;
 #X connect 3 0 2 0;
-#X connect 10 0 120 0;
+#X connect 10 0 118 0;
 #X connect 11 0 12 0;
 #X connect 11 0 24 0;
 #X connect 11 0 25 0;
@@ -2799,114 +2798,114 @@ by the crossfader.;
 #X connect 15 0 28 0;
 #X connect 16 0 13 0;
 #X connect 23 0 11 0;
-#X connect 29 0 132 1;
-#X connect 31 0 133 1;
-#X connect 35 0 131 1;
-#X connect 38 0 134 1;
+#X connect 29 0 133 1;
+#X connect 31 0 136 1;
+#X connect 35 0 135 1;
+#X connect 38 0 137 1;
 #X connect 43 0 33 0;
 #X connect 44 0 37 0;
 #X connect 45 0 34 0;
 #X connect 47 0 48 0;
-#X connect 49 0 135 1;
-#X connect 51 0 114 0;
-#X connect 53 0 119 1;
-#X connect 53 0 122 0;
+#X connect 49 0 138 1;
+#X connect 51 0 113 0;
+#X connect 53 0 120 0;
+#X connect 53 0 132 1;
 #X connect 55 0 56 0;
-#X connect 57 0 123 0;
-#X connect 57 0 130 1;
+#X connect 57 0 121 0;
+#X connect 57 0 134 1;
 #X connect 59 0 64 0;
-#X connect 60 0 124 0;
-#X connect 60 0 136 1;
+#X connect 60 0 122 0;
+#X connect 60 0 139 1;
 #X connect 62 0 63 0;
-#X connect 65 0 125 0;
-#X connect 65 0 137 1;
+#X connect 65 0 123 0;
+#X connect 65 0 140 1;
 #X connect 67 0 68 0;
-#X connect 69 0 126 0;
-#X connect 69 0 138 1;
+#X connect 69 0 124 0;
+#X connect 69 0 141 1;
 #X connect 72 0 73 0;
-#X connect 74 0 127 0;
-#X connect 74 0 139 1;
+#X connect 74 0 125 0;
+#X connect 74 0 142 1;
 #X connect 76 0 77 0;
-#X connect 78 0 128 0;
-#X connect 78 0 147 1;
-#X connect 81 0 129 0;
-#X connect 81 0 148 1;
-#X connect 84 0 140 1;
+#X connect 78 0 126 0;
+#X connect 78 0 149 1;
+#X connect 81 0 127 0;
+#X connect 81 0 150 1;
+#X connect 84 0 143 1;
 #X connect 87 0 88 0;
-#X connect 89 0 141 1;
+#X connect 89 0 144 1;
 #X connect 92 0 93 0;
-#X connect 94 0 142 1;
+#X connect 94 0 145 1;
 #X connect 96 0 97 0;
-#X connect 98 0 143 1;
+#X connect 98 0 146 1;
 #X connect 100 0 101 0;
-#X connect 102 0 144 1;
+#X connect 102 0 147 1;
 #X connect 105 0 104 0;
-#X connect 106 0 145 1;
+#X connect 106 0 148 1;
 #X connect 108 0 109 0;
-#X connect 110 0 146 1;
-#X connect 113 0 112 0;
-#X connect 115 0 80 0;
-#X connect 116 0 83 0;
-#X connect 117 0 3 0;
-#X connect 117 1 1 0;
-#X connect 118 0 2 0;
-#X connect 119 0 54 0;
-#X connect 119 1 53 0;
-#X connect 119 1 122 0;
-#X connect 120 0 121 0;
-#X connect 130 0 58 0;
-#X connect 130 1 57 0;
-#X connect 130 1 123 0;
-#X connect 131 0 36 0;
-#X connect 131 1 35 0;
-#X connect 132 0 30 0;
-#X connect 132 1 29 0;
-#X connect 133 0 32 0;
-#X connect 133 1 31 0;
-#X connect 134 0 39 0;
-#X connect 134 1 38 0;
-#X connect 135 0 50 0;
-#X connect 135 1 49 0;
-#X connect 136 0 61 0;
-#X connect 136 1 60 0;
-#X connect 136 1 124 0;
-#X connect 137 0 66 0;
-#X connect 137 1 65 0;
-#X connect 137 1 125 0;
-#X connect 138 0 70 0;
-#X connect 138 1 69 0;
-#X connect 138 1 126 0;
-#X connect 139 0 75 0;
-#X connect 139 1 74 0;
-#X connect 139 1 127 0;
-#X connect 140 0 85 0;
-#X connect 140 1 84 0;
-#X connect 141 0 90 0;
-#X connect 141 1 89 0;
-#X connect 142 0 95 0;
-#X connect 142 1 94 0;
-#X connect 143 0 99 0;
-#X connect 143 1 98 0;
-#X connect 144 0 103 0;
-#X connect 144 1 102 0;
-#X connect 145 0 107 0;
-#X connect 145 1 106 0;
-#X connect 146 0 111 0;
-#X connect 146 1 110 0;
-#X connect 147 0 79 0;
-#X connect 147 1 78 0;
-#X connect 147 1 128 0;
-#X connect 148 0 82 0;
-#X connect 148 1 81 0;
-#X connect 148 1 129 0;
-#X connect 149 0 53 0;
-#X connect 149 0 57 0;
-#X connect 149 0 60 0;
-#X connect 149 0 65 0;
-#X connect 149 0 69 0;
-#X connect 149 0 74 0;
-#X connect 149 0 78 0;
-#X connect 149 0 81 0;
+#X connect 110 0 130 1;
+#X connect 112 0 131 0;
+#X connect 114 0 80 0;
+#X connect 115 0 83 0;
+#X connect 116 0 3 0;
+#X connect 116 1 1 0;
+#X connect 117 0 2 0;
+#X connect 118 0 119 0;
+#X connect 128 0 53 0;
+#X connect 128 0 57 0;
+#X connect 128 0 60 0;
+#X connect 128 0 65 0;
+#X connect 128 0 69 0;
+#X connect 128 0 74 0;
+#X connect 128 0 78 0;
+#X connect 128 0 81 0;
+#X connect 130 0 111 0;
+#X connect 130 1 110 0;
+#X connect 132 0 54 0;
+#X connect 132 1 53 0;
+#X connect 132 1 120 0;
+#X connect 133 0 30 0;
+#X connect 133 1 29 0;
+#X connect 134 0 58 0;
+#X connect 134 1 57 0;
+#X connect 134 1 121 0;
+#X connect 135 0 36 0;
+#X connect 135 1 35 0;
+#X connect 136 0 32 0;
+#X connect 136 1 31 0;
+#X connect 137 0 39 0;
+#X connect 137 1 38 0;
+#X connect 138 0 50 0;
+#X connect 138 1 49 0;
+#X connect 139 0 61 0;
+#X connect 139 1 60 0;
+#X connect 139 1 122 0;
+#X connect 140 0 66 0;
+#X connect 140 1 65 0;
+#X connect 140 1 123 0;
+#X connect 141 0 70 0;
+#X connect 141 1 69 0;
+#X connect 141 1 124 0;
+#X connect 142 0 75 0;
+#X connect 142 1 74 0;
+#X connect 142 1 125 0;
+#X connect 143 0 85 0;
+#X connect 143 1 84 0;
+#X connect 144 0 90 0;
+#X connect 144 1 89 0;
+#X connect 145 0 95 0;
+#X connect 145 1 94 0;
+#X connect 146 0 99 0;
+#X connect 146 1 98 0;
+#X connect 147 0 103 0;
+#X connect 147 1 102 0;
+#X connect 148 0 107 0;
+#X connect 148 1 106 0;
+#X connect 149 0 79 0;
+#X connect 149 1 78 0;
+#X connect 149 1 126 0;
+#X connect 150 0 82 0;
+#X connect 150 1 81 0;
+#X connect 150 1 127 0;
 #X restore 151 129 pd allmidi;
 #X text 478 26 *****This is all related to the memory*****;
 #X text 51 20 *****these are general settings*****;
@@ -2996,25 +2995,31 @@ by the crossfader.;
 #X connect 64 0 60 0;
 #X connect 65 0 63 1;
 #X connect 66 0 61 0;
-#X restore 224 297 pd p;
-#X obj 232 326 vsl 20 128 -1 1 0 0 \$0-hcD \$0-hcD-set empty 0 -9 1
+#X restore 374 203 pd p;
+#X obj 366 336 vsl 20 128 -1 1 0 0 \$0-hcD \$0-hcD-set empty 0 -9 1
 20 -162280 -262144 -262144 6350 1;
-#X obj 202 326 vsl 20 128 -1 1 0 0 \$0-lcD \$0-lcD-set empty 0 -9 1
+#X obj 336 336 vsl 20 128 -1 1 0 0 \$0-lcD \$0-lcD-set empty 0 -9 1
 20 -162280 -262144 -262144 6350 1;
-#X obj 172 326 vsl 20 128 -1 1 0 0 \$0-rsD \$0-rsD-set empty 0 -9 1
+#X obj 306 336 vsl 20 128 -1 1 0 0 \$0-rsD \$0-rsD-set empty 0 -9 1
 20 -162280 -262144 -262144 6350 1;
-#X obj 142 326 vsl 20 128 -1 1 0 0 \$0-cpD \$0-cpD-set empty 0 -9 1
+#X obj 276 336 vsl 20 128 -1 1 0 0 \$0-cpD \$0-cpD-set empty 0 -9 1
 20 -162280 -262144 -262144 6350 1;
-#X obj 112 326 vsl 20 128 -1 1 0 0 \$0-ohD \$0-ohD-set empty 0 -9 1
+#X obj 246 336 vsl 20 128 -1 1 0 0 \$0-ohD \$0-ohD-set empty 0 -9 1
 20 -162280 -262144 -262144 6350 1;
-#X obj 82 326 vsl 20 128 -1 1 0 0 \$0-chD \$0-chD-set empty 0 -9 1
+#X obj 216 336 vsl 20 128 -1 1 0 0 \$0-chD \$0-chD-set empty 0 -9 1
 20 -162280 -262144 -262144 6350 1;
-#X obj 52 326 vsl 20 128 -1 1 0 0 \$0-snareD \$0-snareD-set empty 0
--9 1 20 -162280 -262144 -262144 6350 1;
-#X obj 22 326 vsl 20 128 -1 1 0 0 \$0-kickD \$0-kickD-set DENSITY 0
--9 1 14 -162280 -262144 -262144 6350 1;
-#X obj 355 275 butt2 save2;
-#X obj 305 375 butt2 save5;
-#X obj 305 325 butt2 save3;
-#X obj 355 375 butt2 save6;
-#X obj 355 325 butt2 save4;
+#X obj 186 336 vsl 20 128 -1 1 0 0 \$0-snareD \$0-snareD-set empty
+0 -9 1 20 -162280 -262144 -262144 6350 1;
+#X obj 156 336 vsl 20 128 -1 1 0 0 \$0-kickD \$0-kickD-set DENSITY
+0 -9 1 14 -162280 -262144 -262144 6350 1;
+#X obj 535 395 butt2 save5;
+#X obj 468 298 memslot 0 \$0;
+#X text 39 39 comment;
+#X text 458 473 save1;
+#X text 458 493 save2;
+#X text 458 512 save6;
+#X obj 535 295 butt2 save1;
+#X obj 585 295 butt2 save2;
+#X obj 535 345 butt2 save3;
+#X obj 585 395 butt2 save6;
+#X obj 585 345 butt2 save4;

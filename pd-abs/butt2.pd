@@ -1,8 +1,8 @@
 #N canvas 58 127 624 569 10;
-#X obj 100 100 bng 38 250 50 0 empty \$0-butt empty 17 7 0 10 -258699
--258699 -258699;
-#X obj 100 100 cnv 15 38 38 empty \$0-butt empty 20 12 0 14 -258699
--258699 0;
+#X obj 100 100 bng 38 250 50 0 empty \$0-butt empty 17 7 0 10 -33289
+-33289 -33289;
+#X obj 100 100 cnv 15 38 38 empty \$0-butt empty 20 12 0 14 -33289
+-33289 0;
 #X obj 100 141 f \$0;
 #X obj 114 340 pack f f;
 #X floatatom 163 158 5 0 0 0 - - -, f 5;

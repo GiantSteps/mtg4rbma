@@ -1,4 +1,4 @@
-#N canvas 443 45 426 494 10;
+#N canvas 218 23 426 494 10;
 #X declare -path pd-abs -path pd-third-party;
 #X obj 161 228 hsl 100 28 0 1 0 0 style-crossfade \$0-set-style-crossfade
 empty -2 -8 0 10 -33289 -228856 -1 5544 1;
@@ -146,7 +146,7 @@ Daft_Punk Funk HipHop;
 new 1 14 1 15 -33289 -228856 -228856;
 #X obj 81 20 onset16_grey hiconga;
 #X obj 81 179 hradio 20 1 0 16 nos playhead empty 0 -8 0 10 -128992
--258113 -1 7;
+-258113 -1 9;
 #X obj 9 159 cnv 15 30 20 empty empty Kd 2 12 1 22 -128992 -228856
 0;
 #X obj 9 140 cnv 15 30 20 empty empty Sn 2 12 1 22 -128992 -228856

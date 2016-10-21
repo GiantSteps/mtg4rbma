@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 1,
+			"minor" : 3,
 			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 262.0, 222.0, 546.0, 640.0 ],
+		"rect" : [ 155.0, 96.0, 1091.0, 640.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -447,9 +447,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 849.0, 365.0, 50.0, 35.0 ],
+					"patching_rect" : [ 849.0, 365.0, 166.0, 35.0 ],
 					"style" : "",
-					"text" : "14 0 8 8"
+					"text" : "8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8"
 				}
 
 			}
@@ -560,15 +560,17 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-12",
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 140.0, 92.0, 22.0 ],
+					"patching_rect" : [ 40.0, 140.0, 92.0, 62.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 16.0, 75.5, 214.0, 22.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 16.0, 75.5, 214.0, 35.0 ],
 					"style" : "",
-					"text" : "14 0 8 8"
+					"text" : "8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8"
 				}
 
 			}
@@ -702,7 +704,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
+							"minor" : 3,
 							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -1789,8 +1791,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "bassmine.js",
-				"bootpath" : "~/Github_Repo/BassMine/BassMine-master/js",
-				"patcherrelativepath" : "../../../../Github_Repo/BassMine/BassMine-master/js",
+				"bootpath" : "~/Git/BassMine-master/js",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

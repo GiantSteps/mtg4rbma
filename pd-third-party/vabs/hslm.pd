@@ -1,11 +1,11 @@
-#N struct 1298-line float pos;
+#N struct 1005-line float pos;
 #N canvas 284 371 633 361 8;
 #X obj 333 178 pointer;
 #X obj 259 71 \$0;
 #X msg 333 113 traverse pd-\$1-data \, bang;
 #X msg 370 135 \; pd-\$1-data clear;
 #N canvas 84 234 376 410 \$0-data 0;
-#X scalar 1298-line 7 \;;
+#X scalar 1005-line 9.34921 \;;
 #X coords 0 0 106 15 106 15 2 100 100;
 #X restore 80 150 pd \$0-data;
 #X obj 10 45 inlet;
@@ -20,7 +20,7 @@
 #X obj 14 31 drawpolygon 955 3 pos -5 pos 5;
 #X restore 9 311 pd line;
 #X obj 83 150 hsl 101 15 0 100 0 0 \$0-out \$0-in empty -2 -8 0 10
--66577 -258113 -258113 551 0;
+-66577 -258113 -258113 6300 0;
 #X obj 296 178 + 3;
 #X obj 10 267 + 3;
 #X obj 296 242 append \$0-line pos;

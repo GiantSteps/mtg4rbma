@@ -1,8 +1,8 @@
-#N canvas 443 45 571 587 10;
+#N canvas 443 45 426 494 10;
 #X declare -path pd-abs -path pd-third-party;
 #X obj 161 228 hsl 100 28 0 1 0 0 style-crossfade \$0-set-style-crossfade
 empty -2 -8 0 10 -33289 -228856 -1 5544 1;
-#X obj 188 271 hsl 200 28 0 1 0 0 \$0-bbv \$0-bbv-set variation 68
+#X obj 118 271 hsl 200 28 0 1 0 0 \$0-bbv \$0-bbv-set variation 68
 14 1 15 -33289 -228856 -262144 0 1;
 #N canvas 425 190 796 519 select 0;
 #X obj 100 300 cnv 15 125 28 empty empty empty 20 12 0 14 -33289 -66577
@@ -142,7 +142,7 @@ Daft_Punk Funk HipHop;
 #X connect 28 0 14 0;
 #X coords 0 -1 1 1 125 28 2 100 300;
 #X restore 22 228 pd select style B;
-#X obj 146 271 bng 28 250 50 0 \$0-generate-seed \$0-generate-seed-set
+#X obj 76 271 bng 28 250 50 0 \$0-generate-seed \$0-generate-seed-set
 new 1 14 1 15 -33289 -228856 -228856;
 #X obj 81 20 onset16_grey hiconga;
 #X obj 81 179 hradio 20 1 0 16 nos playhead empty 0 -8 0 10 -128992
@@ -164,14 +164,8 @@ new 1 14 1 15 -33289 -228856 -228856;
 #X obj 9 21 cnv 15 30 20 empty empty Hc 2 12 1 22 -128992 -228856 0
 ;
 #X obj 61 21 butt hiconga-freeze;
-#X obj 393 390 bng 20 250 50 0 reset-density reset-density-set empty
+#X obj 343 390 bng 20 250 50 0 reset-density reset-density-set empty
 17 7 0 10 -228856 -66577 -1;
-#X obj 537 269 cnv 15 1 1 empty empty PRESETS -2 6 1 14 -128992 -228856
-0;
-#X obj 592 465 bng 15 250 50 0 \$0-clear-all-savings nor clear_all
--12 -5 1 10 -33289 -228856 -228856;
-#X obj 542 465 bng 15 250 50 0 \$0-clear-one-saving nor clear_one -12
--5 1 10 -33289 -228856 -228856;
 #X obj 61 161 butt kick-freeze;
 #X obj 61 141 butt snare-freeze;
 #X obj 61 121 butt chihat-freeze;
@@ -185,39 +179,27 @@ new 1 14 1 15 -33289 -228856 -228856;
 10 -258113 -1 -1;
 #X obj 274 219 bng 8 250 50 0 \$0-learn-styleB --- empty 17 7 0 10
 -258113 -1 -1;
-#X obj 145 262 bng 8 250 50 0 \$0-learn-new --- empty 17 7 0 10 -258113
+#X obj 75 262 bng 8 250 50 0 \$0-learn-new --- empty 17 7 0 10 -258113
 -1 -1;
-#X obj 195 262 bng 8 250 50 0 \$0-learn-variation --- empty 17 7 0
+#X obj 125 262 bng 8 250 50 0 \$0-learn-variation --- empty 17 7 0
 10 -258113 -1 -1;
-#X obj 366 468 bng 8 250 50 0 \$0-learn-densityhc --- empty 17 7 0
+#X obj 316 468 bng 8 250 50 0 \$0-learn-densityhc --- empty 17 7 0
 10 -258113 -1 -1;
-#X obj 337 468 bng 8 250 50 0 \$0-learn-densitylc --- empty 17 7 0
+#X obj 287 468 bng 8 250 50 0 \$0-learn-densitylc --- empty 17 7 0
 10 -258113 -1 -1;
-#X obj 307 467 bng 8 250 50 0 \$0-learn-densityrs --- empty 17 7 0
+#X obj 257 467 bng 8 250 50 0 \$0-learn-densityrs --- empty 17 7 0
 10 -258113 -1 -1;
-#X obj 277 467 bng 8 250 50 0 \$0-learn-densitycp --- empty 17 7 0
+#X obj 227 467 bng 8 250 50 0 \$0-learn-densitycp --- empty 17 7 0
 10 -258113 -1 -1;
-#X obj 247 467 bng 8 250 50 0 \$0-learn-densityoh --- empty 17 7 0
+#X obj 197 467 bng 8 250 50 0 \$0-learn-densityoh --- empty 17 7 0
 10 -258113 -1 -1;
-#X obj 217 468 bng 8 250 50 0 \$0-learn-densitych --- empty 17 7 0
+#X obj 167 468 bng 8 250 50 0 \$0-learn-densitych --- empty 17 7 0
 10 -258113 -1 -1;
-#X obj 187 468 bng 8 250 50 0 \$0-learn-densitysn --- empty 17 7 0
+#X obj 137 468 bng 8 250 50 0 \$0-learn-densitysn --- empty 17 7 0
 10 -258113 -1 -1;
-#X obj 156 468 bng 8 250 50 0 \$0-learn-densitykd --- empty 17 7 0
+#X obj 106 468 bng 8 250 50 0 \$0-learn-densitykd --- empty 17 7 0
 10 -258113 -1 -1;
-#X obj 393 411 bng 8 250 50 0 \$0-learn-density0 --- empty 17 7 0 10
--258113 -1 -1;
-#X obj 535 334 bng 8 250 50 0 \$0-learn-memory1 --- empty 17 7 0 10
--258113 -1 -1;
-#X obj 585 334 bng 8 250 50 0 \$0-learn-memory2 --- empty 17 7 0 10
--258113 -1 -1;
-#X obj 535 384 bng 8 250 50 0 \$0-learn-memory3 --- empty 17 7 0 10
--258113 -1 -1;
-#X obj 585 384 bng 8 250 50 0 \$0-learn-memory4 --- empty 17 7 0 10
--258113 -1 -1;
-#X obj 535 434 bng 8 250 50 0 \$0-learn-memory5 --- empty 17 7 0 10
--258113 -1 -1;
-#X obj 585 434 bng 8 250 50 0 \$0-learn-memory6 --- empty 17 7 0 10
+#X obj 343 411 bng 8 250 50 0 \$0-learn-density0 --- empty 17 7 0 10
 -258113 -1 -1;
 #X obj 41 161 butt3 kick-mute;
 #X obj 45 180 cnv 10 10 10 empty empty m 0 6 1 14 -128992 -228856 0
@@ -2947,6 +2929,36 @@ by the crossfader.;
 #X msg 509 462 \$1 configure -background \$2;
 #X obj 546 424 symbol #808080;
 #X msg 509 387 pd-gs_drDrums_plugin.pd;
+#N canvas 0 22 450 300 ccc 0;
+#X obj 178 3 cnv 15 1 1 empty empty PRESETS -2 6 1 14 -128992 -228856
+0;
+#X obj 233 199 bng 15 250 50 0 \$0-clear-all-savings nor clear_all
+-12 -5 1 10 -33289 -228856 -228856;
+#X obj 183 199 bng 15 250 50 0 \$0-clear-one-saving nor clear_one -12
+-5 1 10 -33289 -228856 -228856;
+#X obj 176 68 bng 8 250 50 0 \$0-learn-memory1 --- empty 17 7 0 10
+-258113 -1 -1;
+#X obj 226 68 bng 8 250 50 0 \$0-learn-memory2 --- empty 17 7 0 10
+-258113 -1 -1;
+#X obj 176 118 bng 8 250 50 0 \$0-learn-memory3 --- empty 17 7 0 10
+-258113 -1 -1;
+#X obj 226 118 bng 8 250 50 0 \$0-learn-memory4 --- empty 17 7 0 10
+-258113 -1 -1;
+#X obj 176 168 bng 8 250 50 0 \$0-learn-memory5 --- empty 17 7 0 10
+-258113 -1 -1;
+#X obj 226 168 bng 8 250 50 0 \$0-learn-memory6 --- empty 17 7 0 10
+-258113 -1 -1;
+#X obj 176 129 butt2 save5;
+#X obj 109 32 memslot 0 \$0;
+#X text 99 207 save1;
+#X text 99 227 save2;
+#X text 99 246 save6;
+#X obj 176 29 butt2 save1;
+#X obj 226 29 butt2 save2;
+#X obj 176 79 butt2 save3;
+#X obj 226 129 butt2 save6;
+#X obj 226 79 butt2 save4;
+#X restore 588 234 pd ccc;
 #X connect 4 0 5 1;
 #X connect 5 0 10 0;
 #X connect 5 0 20 0;
@@ -2996,30 +3008,20 @@ by the crossfader.;
 #X connect 65 0 63 1;
 #X connect 66 0 61 0;
 #X restore 374 203 pd p;
-#X obj 366 336 vsl 20 128 -1 1 0 0 \$0-hcD \$0-hcD-set empty 0 -9 1
+#X obj 316 336 vsl 20 128 -1 1 0 0 \$0-hcD \$0-hcD-set empty 0 -9 1
 20 -162280 -262144 -262144 6350 1;
-#X obj 336 336 vsl 20 128 -1 1 0 0 \$0-lcD \$0-lcD-set empty 0 -9 1
+#X obj 286 336 vsl 20 128 -1 1 0 0 \$0-lcD \$0-lcD-set empty 0 -9 1
 20 -162280 -262144 -262144 6350 1;
-#X obj 306 336 vsl 20 128 -1 1 0 0 \$0-rsD \$0-rsD-set empty 0 -9 1
+#X obj 256 336 vsl 20 128 -1 1 0 0 \$0-rsD \$0-rsD-set empty 0 -9 1
 20 -162280 -262144 -262144 6350 1;
-#X obj 276 336 vsl 20 128 -1 1 0 0 \$0-cpD \$0-cpD-set empty 0 -9 1
+#X obj 226 336 vsl 20 128 -1 1 0 0 \$0-cpD \$0-cpD-set empty 0 -9 1
 20 -162280 -262144 -262144 6350 1;
-#X obj 246 336 vsl 20 128 -1 1 0 0 \$0-ohD \$0-ohD-set empty 0 -9 1
+#X obj 196 336 vsl 20 128 -1 1 0 0 \$0-ohD \$0-ohD-set empty 0 -9 1
 20 -162280 -262144 -262144 6350 1;
-#X obj 216 336 vsl 20 128 -1 1 0 0 \$0-chD \$0-chD-set empty 0 -9 1
+#X obj 166 336 vsl 20 128 -1 1 0 0 \$0-chD \$0-chD-set empty 0 -9 1
 20 -162280 -262144 -262144 6350 1;
-#X obj 186 336 vsl 20 128 -1 1 0 0 \$0-snareD \$0-snareD-set empty
+#X obj 136 336 vsl 20 128 -1 1 0 0 \$0-snareD \$0-snareD-set empty
 0 -9 1 20 -162280 -262144 -262144 6350 1;
-#X obj 156 336 vsl 20 128 -1 1 0 0 \$0-kickD \$0-kickD-set DENSITY
+#X obj 106 336 vsl 20 128 -1 1 0 0 \$0-kickD \$0-kickD-set DENSITY
 0 -9 1 14 -162280 -262144 -262144 6350 1;
-#X obj 535 395 butt2 save5;
-#X obj 468 298 memslot 0 \$0;
 #X text 39 39 comment;
-#X text 458 473 save1;
-#X text 458 493 save2;
-#X text 458 512 save6;
-#X obj 535 295 butt2 save1;
-#X obj 585 295 butt2 save2;
-#X obj 535 345 butt2 save3;
-#X obj 585 395 butt2 save6;
-#X obj 585 345 butt2 save4;

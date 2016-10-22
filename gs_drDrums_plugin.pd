@@ -1,7 +1,7 @@
 #N canvas 218 23 426 494 10;
 #X declare -path pd-abs -path pd-third-party;
 #X obj 161 228 hsl 100 28 0 1 0 0 style-crossfade \$0-set-style-crossfade
-empty -2 -8 0 10 -33289 -228856 -1 5544 1;
+empty -2 -8 0 10 -33289 -228856 -1 1202 1;
 #X obj 118 271 hsl 200 28 0 1 0 0 \$0-bbv \$0-bbv-set variation 68
 14 1 15 -33289 -228856 -262144 0 1;
 #N canvas 425 190 796 519 select 0;
@@ -146,7 +146,7 @@ Daft_Punk Funk HipHop;
 new 1 14 1 15 -33289 -228856 -228856;
 #X obj 81 20 onset16_grey hiconga;
 #X obj 81 179 hradio 20 1 0 16 nos playhead empty 0 -8 0 10 -128992
--258113 -1 9;
+-258113 -1 7;
 #X obj 9 159 cnv 15 30 20 empty empty Kd 2 12 1 22 -128992 -228856
 0;
 #X obj 9 140 cnv 15 30 20 empty empty Sn 2 12 1 22 -128992 -228856
@@ -3116,5 +3116,5 @@ d_cp d_rs d_lc d_hc d_reset d_style1 d_style2;
 #X obj 136 336 vsl 20 128 -1 1 0 0 \$0-snareD \$0-snareD-set empty
 0 -9 1 20 -162280 -262144 -262144 6350 1;
 #X obj 106 336 vsl 20 128 -1 1 0 0 \$0-kickD \$0-kickD-set DENSITY
-0 -9 1 14 -162280 -262144 -262144 6350 1;
+0 -9 1 14 -162280 -262144 -262144 7000 1;
 #X text 39 39 comment;

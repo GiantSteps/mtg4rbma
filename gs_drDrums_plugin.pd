@@ -1,8 +1,8 @@
-#N canvas 218 23 426 494 10;
+#N canvas 24 23 416 472 10;
 #X declare -path pd-abs -path pd-third-party;
-#X obj 161 228 hsl 100 28 0 1 0 0 style-crossfade \$0-set-style-crossfade
-empty -2 -8 0 10 -33289 -228856 -1 1202 1;
-#X obj 118 271 hsl 200 28 0 1 0 0 \$0-bbv \$0-bbv-set variation 68
+#X obj 161 218 hsl 100 28 0 1 0 0 style-crossfade \$0-set-style-crossfade
+empty -2 -8 0 10 -33289 -228856 -1 2970 1;
+#X obj 141 261 hsl 200 28 0 1 0 0 \$0-bbv \$0-bbv-set variation 68
 14 1 15 -33289 -228856 -262144 0 1;
 #N canvas 425 190 796 519 select 0;
 #X obj 100 300 cnv 15 125 28 empty empty empty 20 12 0 14 -33289 -66577
@@ -71,7 +71,7 @@ Daft_Punk Funk HipHop;
 #X connect 26 0 1 0;
 #X connect 27 0 12 0;
 #X coords 0 -1 1 1 125 28 2 100 300;
-#X restore 274 228 pd select style B;
+#X restore 274 218 pd select style B;
 #N canvas 375 240 796 519 select 0;
 #X obj 100 300 cnv 15 125 28 empty empty empty 20 12 0 14 -33289 -66577
 0;
@@ -141,85 +141,57 @@ Daft_Punk Funk HipHop;
 #X connect 26 0 27 0;
 #X connect 28 0 14 0;
 #X coords 0 -1 1 1 125 28 2 100 300;
-#X restore 22 228 pd select style B;
-#X obj 76 271 bng 28 250 50 0 \$0-generate-seed \$0-generate-seed-set
+#X restore 22 218 pd select style B;
+#X obj 99 261 bng 28 250 50 0 \$0-generate-seed \$0-generate-seed-set
 new 1 14 1 15 -33289 -228856 -228856;
-#X obj 81 20 onset16_grey hiconga;
-#X obj 81 179 hradio 20 1 0 16 nos playhead empty 0 -8 0 10 -128992
+#X obj 81 10 onset16_grey hiconga;
+#X obj 81 169 hradio 20 1 0 16 nos playhead empty 0 -8 0 10 -128992
 -258113 -1 7;
-#X obj 9 159 cnv 15 30 20 empty empty Kd 2 12 1 22 -128992 -228856
+#X obj 9 149 cnv 15 30 20 empty empty Kd 2 12 1 22 -128992 -228856
 0;
-#X obj 9 140 cnv 15 30 20 empty empty Sn 2 12 1 22 -128992 -228856
+#X obj 9 130 cnv 15 30 20 empty empty Sn 2 12 1 22 -128992 -228856
 0;
-#X obj 9 120 cnv 15 30 20 empty empty Ch 2 12 1 22 -128992 -228856
+#X obj 9 110 cnv 15 30 20 empty empty Ch 2 12 1 22 -128992 -228856
 0;
-#X obj 9 101 cnv 15 30 20 empty empty Oh 2 12 1 22 -128992 -228856
-0;
-#X obj 9 59 cnv 15 30 20 empty empty Rs 2 12 1 22 -128992 -228856 0
+#X obj 9 91 cnv 15 30 20 empty empty Oh 2 12 1 22 -128992 -228856 0
 ;
-#X obj 9 80 cnv 15 30 20 empty empty Cp 2 12 1 22 -128992 -228856 0
+#X obj 9 49 cnv 15 30 20 empty empty Rs 2 12 1 22 -128992 -228856 0
 ;
-#X obj 9 40 cnv 15 30 20 empty empty Lc 2 12 1 22 -128992 -228856 0
+#X obj 9 70 cnv 15 30 20 empty empty Cp 2 12 1 22 -128992 -228856 0
 ;
-#X obj 9 21 cnv 15 30 20 empty empty Hc 2 12 1 22 -128992 -228856 0
+#X obj 9 30 cnv 15 30 20 empty empty Lc 2 12 1 22 -128992 -228856 0
 ;
-#X obj 61 21 butt hiconga-freeze;
-#X obj 343 390 bng 20 250 50 0 reset-density reset-density-set empty
+#X obj 9 11 cnv 15 30 20 empty empty Hc 2 12 1 22 -128992 -228856 0
+;
+#X obj 61 11 butt hiconga-freeze;
+#X obj 263 380 bng 20 250 50 0 reset-density reset-density-set empty
 17 7 0 10 -228856 -66577 -1;
-#X obj 61 161 butt kick-freeze;
-#X obj 61 141 butt snare-freeze;
-#X obj 61 121 butt chihat-freeze;
-#X obj 61 101 butt ohihat-freeze;
-#X obj 61 81 butt clap-freeze;
-#X obj 61 41 butt loconga-freeze;
-#X obj 61 61 butt rimshot-freeze;
-#X obj 23 219 bng 8 250 50 0 \$0-learn-styleA --- empty 17 7 0 10 -258113
--1 -1;
-#X obj 158 219 bng 8 250 50 0 \$0-learn-crossfade --- empty 17 7 0
-10 -258113 -1 -1;
-#X obj 274 219 bng 8 250 50 0 \$0-learn-styleB --- empty 17 7 0 10
--258113 -1 -1;
-#X obj 75 262 bng 8 250 50 0 \$0-learn-new --- empty 17 7 0 10 -258113
--1 -1;
-#X obj 125 262 bng 8 250 50 0 \$0-learn-variation --- empty 17 7 0
-10 -258113 -1 -1;
-#X obj 316 468 bng 8 250 50 0 \$0-learn-densityhc --- empty 17 7 0
-10 -258113 -1 -1;
-#X obj 287 468 bng 8 250 50 0 \$0-learn-densitylc --- empty 17 7 0
-10 -258113 -1 -1;
-#X obj 257 467 bng 8 250 50 0 \$0-learn-densityrs --- empty 17 7 0
-10 -258113 -1 -1;
-#X obj 227 467 bng 8 250 50 0 \$0-learn-densitycp --- empty 17 7 0
-10 -258113 -1 -1;
-#X obj 197 467 bng 8 250 50 0 \$0-learn-densityoh --- empty 17 7 0
-10 -258113 -1 -1;
-#X obj 167 468 bng 8 250 50 0 \$0-learn-densitych --- empty 17 7 0
-10 -258113 -1 -1;
-#X obj 137 468 bng 8 250 50 0 \$0-learn-densitysn --- empty 17 7 0
-10 -258113 -1 -1;
-#X obj 106 468 bng 8 250 50 0 \$0-learn-densitykd --- empty 17 7 0
-10 -258113 -1 -1;
-#X obj 343 411 bng 8 250 50 0 \$0-learn-density0 --- empty 17 7 0 10
--258113 -1 -1;
-#X obj 41 161 butt3 kick-mute;
-#X obj 45 180 cnv 10 10 10 empty empty m 0 6 1 14 -128992 -228856 0
+#X obj 61 151 butt kick-freeze;
+#X obj 61 131 butt snare-freeze;
+#X obj 61 111 butt chihat-freeze;
+#X obj 61 91 butt ohihat-freeze;
+#X obj 61 71 butt clap-freeze;
+#X obj 61 31 butt loconga-freeze;
+#X obj 61 51 butt rimshot-freeze;
+#X obj 41 151 butt3 kick-mute;
+#X obj 45 170 cnv 10 10 10 empty empty m 0 6 1 14 -128992 -228856 0
 ;
-#X obj 65 180 cnv 10 5 10 empty empty a 0 6 1 14 -128992 -228856 0
+#X obj 65 170 cnv 10 5 10 empty empty a 0 6 1 14 -128992 -228856 0
 ;
-#X obj 41 141 butt3 snare-mute;
-#X obj 41 121 butt3 ch-mute;
-#X obj 41 101 butt3 oh-mute;
-#X obj 41 81 butt cp-mute;
-#X obj 41 61 butt3 rs-mute;
-#X obj 41 41 butt3 lc-mute;
-#X obj 41 21 butt3 hc-mute;
-#X obj 81 159 onset16_grey kick;
-#X obj 81 139 onset16_grey snare;
-#X obj 81 120 onset16_grey chihat;
-#X obj 81 100 onset16_grey ohihat;
-#X obj 81 60 onset16_grey rimshot;
-#X obj 81 80 onset16_grey clap;
-#X obj 81 40 onset16_grey loconga;
+#X obj 41 131 butt3 snare-mute;
+#X obj 41 111 butt3 ch-mute;
+#X obj 41 91 butt3 oh-mute;
+#X obj 41 71 butt cp-mute;
+#X obj 41 51 butt3 rs-mute;
+#X obj 41 31 butt3 lc-mute;
+#X obj 41 11 butt3 hc-mute;
+#X obj 81 149 onset16_grey kick;
+#X obj 81 129 onset16_grey snare;
+#X obj 81 110 onset16_grey chihat;
+#X obj 81 90 onset16_grey ohihat;
+#X obj 81 50 onset16_grey rimshot;
+#X obj 81 70 onset16_grey clap;
+#X obj 81 30 onset16_grey loconga;
 #N canvas 36 32 787 547 p 0;
 #X obj 88 52 hradio 15 1 1 5 style-AB-order nor empty 0 -8 0 10 -262144
 -1 -1 3;
@@ -2977,7 +2949,6 @@ by the crossfader.;
 #X obj 226 168 bng 8 250 50 0 \$0-learn-memory6 --- empty 17 7 0 10
 -258113 -1 -1;
 #X obj 176 129 butt2 save5;
-#X obj 109 32 memslot 0 \$0;
 #X text 99 207 save1;
 #X text 99 227 save2;
 #X text 99 246 save6;
@@ -2986,6 +2957,7 @@ by the crossfader.;
 #X obj 176 79 butt2 save3;
 #X obj 226 129 butt2 save6;
 #X obj 226 79 butt2 save4;
+#X obj 109 32 memslot 0 \$0;
 #X restore 588 234 pd fix_before_motreal;
 #N canvas 212 23 557 707 osc 0;
 #X obj 32 543 s \$0-bbv-set;
@@ -3100,21 +3072,35 @@ d_cp d_rs d_lc d_hc d_reset d_style1 d_style2;
 #X connect 64 0 60 0;
 #X connect 65 0 63 1;
 #X connect 66 0 61 0;
-#X restore 374 203 pd p;
-#X obj 316 336 vsl 20 128 -1 1 0 0 \$0-hcD \$0-hcD-set empty 0 -9 1
+#X restore 374 193 pd p;
+#X obj 236 326 vsl 20 128 -1 1 0 0 \$0-hcD \$0-hcD-set empty 0 -9 1
 20 -162280 -262144 -262144 6350 1;
-#X obj 286 336 vsl 20 128 -1 1 0 0 \$0-lcD \$0-lcD-set empty 0 -9 1
+#X obj 206 326 vsl 20 128 -1 1 0 0 \$0-lcD \$0-lcD-set empty 0 -9 1
 20 -162280 -262144 -262144 6350 1;
-#X obj 256 336 vsl 20 128 -1 1 0 0 \$0-rsD \$0-rsD-set empty 0 -9 1
+#X obj 176 326 vsl 20 128 -1 1 0 0 \$0-rsD \$0-rsD-set empty 0 -9 1
 20 -162280 -262144 -262144 6350 1;
-#X obj 226 336 vsl 20 128 -1 1 0 0 \$0-cpD \$0-cpD-set empty 0 -9 1
+#X obj 146 326 vsl 20 128 -1 1 0 0 \$0-cpD \$0-cpD-set empty 0 -9 1
 20 -162280 -262144 -262144 6350 1;
-#X obj 196 336 vsl 20 128 -1 1 0 0 \$0-ohD \$0-ohD-set empty 0 -9 1
+#X obj 116 326 vsl 20 128 -1 1 0 0 \$0-ohD \$0-ohD-set empty 0 -9 1
 20 -162280 -262144 -262144 6350 1;
-#X obj 166 336 vsl 20 128 -1 1 0 0 \$0-chD \$0-chD-set empty 0 -9 1
+#X obj 86 326 vsl 20 128 -1 1 0 0 \$0-chD \$0-chD-set empty 0 -9 1
 20 -162280 -262144 -262144 6350 1;
-#X obj 136 336 vsl 20 128 -1 1 0 0 \$0-snareD \$0-snareD-set empty
-0 -9 1 20 -162280 -262144 -262144 6350 1;
-#X obj 106 336 vsl 20 128 -1 1 0 0 \$0-kickD \$0-kickD-set DENSITY
-0 -9 1 14 -162280 -262144 -262144 7000 1;
-#X text 39 39 comment;
+#X obj 56 326 vsl 20 128 -1 1 0 0 \$0-snareD \$0-snareD-set empty 0
+-9 1 20 -162280 -262144 -262144 6350 1;
+#X obj 26 326 vsl 20 128 -1 1 0 0 \$0-kickD \$0-kickD-set DENSITY 0
+-9 1 14 -162280 -262144 -262144 6350 1;
+#X text 39 29 comment;
+#X obj 306 308 cnv 15 1 1 empty empty store/recall 0 12 1 11 -128992
+-228856 0;
+#X obj 306 368 cnv 15 1 1 empty empty clear 0 12 1 11 -128992 -228856
+0;
+#X obj 335 328 memslot 1 \$0;
+#X obj 365 328 memslot 2 \$0;
+#X obj 305 328 memslot 0 \$0;
+#X obj 335 408 memslot 4 \$0;
+#X obj 305 408 memslot 3 \$0;
+#X obj 365 408 memslot 6 \$0;
+#X obj 306 388 cnv 15 1 1 empty empty store/recall 0 12 1 11 -128992
+-228856 0;
+#X obj 306 448 cnv 15 1 1 empty empty clear 0 12 1 11 -128992 -228856
+0;

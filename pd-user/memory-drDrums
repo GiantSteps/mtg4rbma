@@ -1,18 +1,12 @@
-1, aa aa aa aa ga aa ea aa ea ba ca aa ga aa ea ba aa aa aa aa aa
-aa aa aa aa aa aa aa aa aa aa aa 1 1 1 1 1 1 1 1 0.91 4 5 0 0 0 0 0
-0 0 0;
-2, fa aa fa aa ga aa ea aa ea aa fa ba ka aa ea ea aa aa aa aa aa
-aa aa aa aa aa aa aa aa aa aa aa 1 1 1 1 1 1 1 1 0.91 4 5 0 0 0 0 0
-0 0 0;
-3, fa ea ea ea ga ea ea fa fa aa fa ea ga aa ia aa aa aa aa aa aa
-aa aa aa aa aa aa aa aa aa aa aa 1 1 1 1 1 1 1 1 0.91 4 5 0 0 0 0 0
-0 0 0;
-4, fa aa ea ba ga aa ea ba ea ba ca ea ga aa aa fa aa aa aa aa aa
-aa aa aa aa aa aa aa aa aa aa aa 1 1 1 1 1 1 1 1 0.91 4 5 0 0 0 0 0
-0 0 0;
-5, fa aa ea aa ga aa ea ba ba ca aa ba ca aa aa aa aa aa aa aa aa
-aa aa aa aa aa aa aa aa aa aa aa 1 1 1 1 1 1 1 1 0.91 4 5 0 0 0 0 0
-0 0 0;
-6, fa ea ea aa ga aa fa ca ha ba ea ba ga ea ia ca aa aa aa aa aa
-aa aa aa aa aa aa aa aa aa aa aa 1 1 1 1 1 1 1 1 0.91 4 5 0 0 0 0 0
-0 0 0;
+1, ba ia ia aa bb aa fa aa ba ia ea ia bb aa ea aa aa aa aa aa aa
+aa aa aa aa aa aa aa aa aa aa aa 1 1 1 1 1 1 1 1 0 2 4 0 0 0 0 0 0
+0 0;
+2, ba ea ea aa lb ea aa aa ea ia ea aa ca aa ia ib aa aa aa aa aa
+aa aa aa aa aa aa aa aa aa aa aa 1 1 1 1 1 1 1 1 0.494949 2 4 0 0 0
+0 0 0 0 0;
+3, ba ba ba fa ca ba ba ba fa ba fa ba da ba fa da aa aa aa aa aa
+aa aa aa aa aa aa aa aa aa aa aa 1 1 1 1 1 1 1 1 1 2 4 1 0 0 0 0 0
+0 0;
+4, ba aa ba ea ca aa ba aa ea ba ea ba ca ba ea ca aa aa aa aa aa
+aa aa aa aa aa aa aa aa aa aa aa 1 1 1 1 1 1 1 1 1 2 4 0 0 0 0 0 0
+0 0;

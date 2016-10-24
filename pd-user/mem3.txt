@@ -1,10 +1,10 @@
--set-chord-pattern 0;
--file-index 24;
--set-keyfifths 0;
--preset-density 1;
--set-legato 0;
--set-chords-octave 0;
+-set-chord-pattern 14.7273;
+-file-index 0;
+-set-keyfifths 3;
+-preset-density 7.94488;
+-set-legato 100;
+-set-chords-octave 3;
 -set-spread 0;
 -set-register 0;
 -set-mute-chords 0;
--set-chords-volume 0;
+-set-chords-volume 80;
